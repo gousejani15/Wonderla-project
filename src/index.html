@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AngularProjectDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+                <link rel="stylesheet" type="text/css" href=assets/css/slide.css"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <center>
+        
+      <h1>Wonderla Resorts </h1>
+      <img src="assets/12.jpg" width="900" height="200">
+      </center>
+      <div class="nav">
+        <nav>
+        <ul>
+                <li><a> Wonderla Resort</a></li>
+                <li><a href="main" router-outlet="main"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="gallery" router-outlet="gallery"><i class="fa fa-fw fa-envelope"></i>Gallery</a></li>
+                <li><a href="ticket" router-outlet="ticket"><i class="fa fa-fw fa-search"></i>T-Booking</a></li>
+                <li><a href="about" router-outlet="about"><i ></i>About Us</a></li>
+        </ul> 
+        </nav>
+        </div>
+  </header>
+  <app-root></app-root>
+
+               
+<footer>
+&copy; 2022 ,wonderla Resort,All Right Reserved .
+</footer>
+</body>
+</html>
