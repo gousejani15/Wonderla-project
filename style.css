@@ -1,0 +1,50 @@
+/* This is a CSS comment */
+/* This is a CSS comment */
+/* This is a CSS comment */
+/* This is a CSS comment */
+
+/* Styling for the body element */
+body {
+
+/* Styling for the body element */
+body {
+
+/* Styling for the body element */
+body {
+
+/* Styling for the body element */
+body {
+  font-family: Arial, sans-serif; /* Sets the default font */
+  background-color: #f2f2f2; /* Sets a light gray background color */
+  margin: 20px; /* Adds a 20px margin around the entire body */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styling for h1 headings */
+h1 {
+  color: #333; /* Dark gray text color */
+  text-align: center; /* Centers the text */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styling for paragraph elements */
+p {
+  line-height: 1.6; /* Sets line spacing for readability */
+  color: #555; /* Medium gray text color */
+}
+
+/* Styling for a class named 'highlight' */
+.highlight {
+  background-color: yellow; /* Sets a yellow background for highlighted text */
+  padding: 5px; /* Adds padding around the highlighted text */
+  border-radius: 3px; /* Rounds the corners of the highlight */
+}
+
+/* Styling for an ID named 'main-content' */
+#main-content {
+  width: 80%; /* Sets the width of the main content area */
+  margin: 0 auto; /* Centers the main content horizontally */
+  background-color: white; /* White background for the content area */
+  padding: 30px; /* Adds padding inside the content area */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
